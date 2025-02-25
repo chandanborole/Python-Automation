@@ -17,11 +17,11 @@ driver.find_element(By.XPATH, "//span[@class='hidden-xs hidden-sm hidden-md'] [c
 driver.find_element(By.XPATH, "//ul[@class='dropdown-menu dropdown-menu-right'] //a[contains(text(), 'Login')]").click()
 
 # Provide email address
-driver.find_element(By.XPATH, "//input[@id='input-email']").send_keys("chandanborole@gmail.com")
+driver.find_element(By.XPATH, "//input[@id='input-email']").send_keys("testautomation@gmail.com")
 
 # Provide password
-driver.find_element(By.XPATH, "//input[@id='input-password']").send_keys("Bhusawal@123")
-#driver.find_element(By.CSS_SELECTOR, "input#input-password").send_keys("Bhusawal@123")
+driver.find_element(By.XPATH, "//input[@id='input-password']").send_keys("Automation@123")
+#driver.find_element(By.CSS_SELECTOR, "input#input-password").send_keys("Automation@123")
 
 # Click login
 driver.find_element(By.XPATH, "//input[@type='submit']").click()
