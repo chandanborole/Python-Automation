@@ -42,7 +42,8 @@ class Edityouraccountinformation():
         settelephone.send_keys(telephone)
 
     def ClickContinueButton(self):
-        self.driver.find_element(By.XPATH, self.button_continue_xpath).click
+        clickcontinue = self.driver.find_element(By.XPATH, self.button_continue_xpath)
+        clickcontinue.click()
 
     def GetSuccessMessage(self):
         try:
